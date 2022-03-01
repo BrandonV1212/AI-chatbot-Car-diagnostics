@@ -1,0 +1,58 @@
+{"intents":[
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "whats's up?", "how is it going?"],
+    "responses": ["Hello", "Hey!", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go!", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "how old is brandon", "what is your age", "how old are you", "age"],
+    "responses": ["My owner Brandon is 25 years old!", "25 years!"]
+    },
+    {"tag": "starting issue",
+    "patterns": ["Car Clicks trying to start", "Doesnt start"],
+    "responses": ["Your battery could be dead! Try to recharge the battery if does not solve your issue could be mulible things like starter, bad cable, or blown fuse seek mechanic help. "]
+    },
+    {"tag": "suspension",
+    "patterns": ["Car is riding rough", "My car vibrates when going on the freeway", "My car is vibrating in the front"],
+    "responses": ["Sounds like your going to need a tire balanace first in most cases when there doing the job they will also inform you if you need to replace some suspension parts."]
+    },
+    {"tag": "alignment",
+    "patterns": ["My car is going to the right", "My car is going to the left", "My car keeps driving to the side"],
+    "responses": ["Sounds like your going to need an alignment! When you take your vehicle to the alignment shop they will tell you if you need to replace some suspension parts. "]
+    },
+    {"tag": "Low fuel mileage",
+    "patterns": ["My car wasting a lot of fuel", "My car is burning more fuel then what it was", "I dont know why my car is burning more fuel then it is"],
+    "responses": ["Delaying in services could be the main cause like spark plugs, igntion coils and air filters for further causes could be o2 sensors, fuel injectors "]
+    },
+    {"tag": "exhaust smoke",
+    "patterns": ["smoke is coming out of my exhaust", "Theres a lot of smoke coming out of my exhaust", "Why is there smoke coming out of my exhaust"],
+    "responses": ["White or Grey Smoke: White smoke indicates that the coolant is being combusted along with the fuel and there is a leakage somewhere in the Engine block, cylinder head and head gasket.  Blue Smoke: Blue smoke indicates that there is a leakage in the valve seals or guides or the piston rings have worn out, which are causing the engine oil to penetrate into the combustion chamber which is causing the oil to burn along with the fuel. Hence Causing Blue Smoke.  Black Smoke: This means that excessive fuel is being burnt in the combustion chambers due to a leak in the fuel injector, a stuck fuel pressure regulator or a restriction in the fuel combustion pipe. This usually happens with relatively older cars and in such situations, it is very crucial to get the leaks checked from a specialised mechanic."]
+    },
+    {"tag": "Low engine oil level",
+    "patterns": ["why am I getting low engine oil level"],
+    "responses": ["You could have a leak! But engine do burn oil,Low engine oil level can cause your engine to underperform significantly. Something which is again caused due to delayed car service and aggressive driving. "]
+    },
+    {"tag": "squealing brakes",
+    "patterns": ["My brakes keep making a noise", "Why do my brakes keep squealing"],
+    "responses": ["It is primarily caused by worn-off brake pads. Ignoring squealing brakes is not good, as less responsive brakes can even lead to severe accidents. Hence as soon as you hear your brakes going all high pitched, get your brake pads replaced from your trusted car service partner Mechanic."]
+    },
+    {"tag": "low ac cooling",
+    "patterns": ["my ac is not working anymore", "why isnt my ac not working anymore", "my car blowing hot air its not getting cold anymore"],
+    "responses": ["What usually affects the cooling of the car AC is an AC gas leakage. Other factors include a Clogged or broken Compressor. We recommend you to get your car AC serviced from specialised technicians who can fix such issues in no time."]
+    },
+    {"tag": "engine overheating",
+    "patterns": ["My car is overheating", "my engine overheating"],
+    "responses": ["Check coolant level Warning! Let the vehilce to cool down then check it. If it keeps overheating the next thing would be thermostat, if you have no proir experience take it to professional help."]
+    },
+    {"tag": "help",
+    "patterns": ["I need help on my car", "My car having issue", "My car running funny"],
+    "responses": ["Okay tell more details of what's going on?", "I'm glad to help tell me more.", "Tell me what's going on?"]
+    },
+    {"tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+    "responses": ["24/7"]
+    }
+]}
